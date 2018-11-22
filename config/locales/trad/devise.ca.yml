@@ -1,0 +1,91 @@
+---
+ca:
+  devise:
+    password_expired:
+      expire_password: contrasenya caducada
+      change_required: El teu Clau ha caducat
+      change_password: Canvia el teu Contrasenya
+      new_password: Nova Contrasenya
+      updated: Contrasenya Actualitzada amb Èxit
+    confirmations:
+      confirmed: El teu Compte ha confirmada Estat. Si us plau autentifícate amb el
+        teu vermella socials o la teva Usuari i contrasenya
+      send_instructions: Rebràs ONU Correu electrònic en UNS Minuts amb INSTRUCCIONS
+        Sobre COM Restablir la vostra contrasenya.
+      send_paranoid_instructions: Si el teu Correu electrònic Existeix en La nostra
+        base de dades rebràs ONU Correu electrònic en UNS Minuts amb INSTRUCCIONS
+        Sobre COM Restablir la vostra contrasenya.
+    failure:
+      already_authenticated: Ja té Iniciat Sessió.
+      inactive: El teu Compte encara no Activada ha Estat.
+      invalid: " %{} Authentication_keys o Contrasenya Invàlids."
+      locked: El teu Compte ha Bloquejada Estat.
+      last_attempt: Tens ONU Últim Intent abans de la teva Bloquejada mar Compte.
+      not_found_in_database: " %{authentication_keys} o Contrasenya Invàlids."
+      timeout: El teu session ha expirat, si us plau Inicia Sessió Novament per continuar.
+      unauthenticated: Necessites Iniciar Sessió o registrar-te per continuar.
+      unconfirmed: Continua amb, si us plau Cliqueu a l'enllaç de Confirmació Que
+        HEM Enviat al teu Compte de Correu.
+    mailer:
+      confirmation_instructions:
+        subject: Instructions de Confirmació
+      reset_password_instructions:
+        subject: INSTRUCCIONS paràgraf Restablir la teva Contrasenya
+      unlock_instructions:
+        subject: Instructions de Desbloqueig
+    omniauth_callbacks:
+      failure: 'No t''ha pogut identificar a través d'' %{kind} pel següent motiu
+        m: " %{reason}".'
+      success: Identificat correctament a través de %{kind}.
+    passwords:
+      no_token: No Pots accedir a aquest this page Si no És un Través de l'ONU enllaç
+        per Restablir la contrasenya. Si té accedit des de l'enllaç per Restablir
+        la contrasenya, Assegura't de que l'URL Estigui completa.
+      send_instructions: Rebràs ONU Correu electrònic estafadors s instruccions de
+        Com Restablir Sobre la teva contrasenya a Minuts UNS.
+      send_paranoid_instructions: Si el teu Correu electrònic Existeix en la Nostra
+        Base de Dades, rebràs ONU ENLLAÇ paràgraf Restablir La CONTRASENYA ÉS UNS
+        Minuts.
+      updated: El teu Contrasenya ha canviat correctament. Té Estat IDENTIFICAT correctament.
+      updated_not_active: El teu Contrasenya s'ha canviat correctament.
+    registrations:
+      destroyed: Adéu! El teu Compte ha Cancel·lada Estat. ESPEREM Tornar a veure't
+        aviat. L'informem que d'Conformity Amb seu PETICIÓ, ELS SEUS Dades Personals
+        Registrats com a usuari de la web I Que Formen part del fitxer 'Fitxer' Que
+        el seu responsable és 'Responsable', han Estat cancel·lats en els Termes del
+        que Previst en l'Article 16 de la Llei Orgànica 15
+      signed_up: Benvingut! IDENTIFICAT té Estat.
+      signed_up_but_inactive: T'ha Registrat correctament, sense Però té pogut Iniciar
+        Sessió Perquè teu Compte no Activada ha Estat.
+      signed_up_but_locked: T'ha Registrat correctament, sense Però té pogut Iniciar
+        Sessió Perquè teu Compte Bloquejada AQUESTA.
+      signed_up_but_unconfirmed: Se t'ha Enviat de l'ONU Missatge Amb Un enllaç de
+        confirmació. Si us plau visita l'enllaç per activar teu Compte.
+      update_needs_confirmation: Té actualitzat correctament el teu Compte, NECESSITEM
+        però verificar teu Nova Compte de Correu. Si us plau REVISA teu Correu electrònic
+        i visita l'enllaç per Finalitzar la Confirmació de La teva Nova adreça de
+        correu electrònic.
+      updated: Té actualitzat correctament el teu Compte.
+    sessions:
+      signed_in: Iniciat té Sessió correctament.
+      signed_out: La Sessió té tancat correctament.
+      already_signed_out: La Sessió té tancat correctament.
+    unlocks:
+      send_instructions: Rebreu un correu electrònic en uns minuts amb instruccions
+        sobre com desbloquejar la vostra compte.
+      send_paranoid_instructions: Si El teu Compte ha, rebràs ONU Correu electrònic
+        en UNS Minuts amb INSTRUCCIONS Sobre COM desbloquejar teu Compte.
+      unlocked: El teu Compte ha desbloquejada Estat. Si us plau Inicia Sessió per
+        continuar.
+  errors:
+    messages:
+      already_confirmed: Confirmat ja té Estat, si us plau intenta Iniciar Sessió.
+      confirmation_period_expired: Necessites Ser Confirmat en %{period} període, si us
+        plau Torna a sol·licitar-la.
+      expired: ha expirat, si us plau Torna a sol·licitar-la.
+      not_found: no s'ha Trobat.
+      not_locked: sense BLOQUEJAT ESTAVA.
+      not_saved:
+        one: '1 error va impedir Que this %{resource} de recursos Fora Desat:'
+        other: " %{count} errors van impedir que aquest %{resource} fos guardat:"
+      equal_to_current_password: Ha de ser diferent a la real Contrasenya

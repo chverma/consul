@@ -1,0 +1,132 @@
+---
+ca:
+  valuation:
+    header:
+      title: evaluation
+    menu:
+      title: evaluation
+      budgets: Pressupostos participatius
+      spending_proposals: Propostes d'Inversió
+    budgets:
+      index:
+        title: Pressupostos participatius
+        filters:
+          current: oberts
+          finished: acabats
+        table_name: Nombre
+        table_phase: fase
+        table_assigned_investments_valuation_open: Prop. Inv. assignades en evaluation
+        table_actions: accions
+        evaluate: avaluar v
+    budget_investments:
+      index:
+        headings_filter_all: Totes les partides
+        filters:
+          valuation_open: obertes
+          valuating: en evaluation
+          valuation_finished: finalitzada evaluation
+        title: Propostes d'inversió
+        assigned_to: Assignades a %{valuator}
+        edit: Informe editar
+        valuators_assigned:
+          one: avaluador assignat
+          other: " %{count} avaluadors ASSIGNATS"
+        no_valuators_assigned: Sin evaluador
+        table_id: identificació
+        table_title: títol
+        table_heading_name: Nom de la partida
+        table_actions: accions
+      show:
+        back: tornar
+        title: Proposta d'Inversió
+        info: Dades De Enviament
+        by: enviada per
+        sent: Data de creació
+        heading: partida
+        dossier: Informe
+        edit_dossier: Informe editar
+        price: cost
+        price_first_year: Cost en l'any imprimació
+        currency: "€"
+        feasibility: viabilitat
+        feasible: viable
+        unfeasible: inviable
+        undefined: sense definir
+        valuation_finished: finalitzat Informe
+        duration: Termini d'execució
+        internal_comments: comentaris interns
+        responsibles: responsables
+        assigned_admin: administrador assignat
+        assigned_valuators: avaluadors ASSIGNATS
+      edit:
+        dossier: Informe
+        price_html: Cost (%{currency}) <small> (Dada pública) </small>
+        price_first_year_html: Cost en el cebador any ( %{currency}) <small> (opcional,
+          Dada no Públic) <
+        price_explanation_html: Informe de cost <small> (opcional, Públic Dada) </small>
+        feasibility: viabilitat
+        feasible: viable
+        unfeasible: inviable
+        undefined_feasible: Sin decidir
+        feasible_explanation_html: Informe d'inviabilitat <small> (en cas de Que El
+          mar, Públic Dada) <
+        valuation_finished: finalitzat Informe
+        duration_html: Termini d'execució <small> (opcional, sense Dada Públic) <
+        internal_comments_html: Comentaris i Observacions <small> (paràgraf Responsables
+          interns, Dada no Públic) </small>
+        save: canvis i estalviar
+      notice:
+        valuate: actualitzat expedient
+    spending_proposals:
+      index:
+        geozone_filter_all: Tots els àmbits d'actuació
+        filters:
+          valuation_open: obertes
+          valuating: en evaluation
+          valuation_finished: Avaluació finalitzada
+        title: Propostes d'Inversió paràgraf Pressupostos participatius
+        edit: editar
+      show:
+        back: tornar
+        heading: Proposta d'Inversió
+        info: Dades De Enviament
+        association_name: Associació
+        by: enviada per
+        sent: Data de creació
+        geozone: àmbit
+        dossier: Informe
+        edit_dossier: Informe editar
+        price: cost
+        price_first_year: Cost en l'any imprimació
+        currency: "€"
+        feasibility: viabilitat
+        feasible: viable
+        not_feasible: no és viable
+        undefined: Sin definir
+        valuation_finished: finalitzat Informe
+        time_scope: Termini d'execució
+        internal_comments: Comentarios interns
+        responsibles: responsables
+        assigned_admin: administrador assignat
+        assigned_valuators: Avaluadors assignats
+      edit:
+        dossier: Informe
+        price_html: Cost ( %{currency}) <small> (Públic dada) </small>
+        price_first_year_html: Cost en el cebador any ( %{currency}) <small> (opcional,
+          privat) </small>
+        currency: "€"
+        price_explanation_html: Informe de cost <small> (opcional, Públic Dada) </small>
+        feasibility: viabilitat
+        feasible: viable
+        not_feasible: Inviable
+        undefined_feasible: sense Decidir
+        feasible_explanation_html: Informe d'inviabilitat <small> (en cas de Que El
+          mar, Públic Dada) </small>
+        valuation_finished: finalitzat Informe
+        time_scope_html: Termini d'execució <small> (opcional, sense Dada Públic)
+          </small>
+        internal_comments_html: Comentaris i observacions <petit> (per responsables
+          interns, dades no public) </small> 
+        save: canvis i estalviar
+      notice:
+        valuate: Informe actualitzat

@@ -1,0 +1,78 @@
+---
+ca:
+  moderation:
+    header:
+      title: moderació
+    comments:
+      index:
+        block_authors: Bloquear autors
+        confirm: Estàs segur?
+        filter: Filtrar
+        filters:
+          all: tots
+          pending_flag_review: pendents
+          with_ignored_flag: Marcats Com revisats
+        headers:
+          comment: comentari
+          moderate: moderar
+        hide_comments: Amaga comentaris
+        ignore_flags: Com revisats Marcar
+        order: ordre
+        orders:
+          flags: denunciats Mas
+          newest: Més nous
+        title: Comentaris
+    dashboard:
+      index:
+        title: moderació
+    debates:
+      index:
+        block_authors: autors bloquejar
+        confirm: Estàs segur?
+        filter: Filtrar
+        filters:
+          all: tots
+          pending_flag_review: Pendents
+          with_ignored_flag: Marcats Com revisats
+        headers:
+          debate: debat
+          moderate: moderar
+        hide_debates: debats Amaga
+        ignore_flags: Com revisats Marcar
+        order: ordre
+        orders:
+          created_at: nous Mas
+          flags: denunciats Mas
+        title: debats
+    menu:
+      flagged_comments: comentaris
+      flagged_debates: debats
+      proposals: propostes
+      users: usuaris bloquejar
+    proposals:
+      index:
+        block_authors: autors bloquejar
+        confirm: Esteu segur?
+        filter: filtre
+        filters:
+          all: totes
+          pending_flag_review: Pendents de revisió
+          with_ignored_flag: Marcades Com revisades
+        headers:
+          moderate: moderar
+          proposal: Proposta
+        hide_proposals: Amaga Propostes
+        ignore_flags: Marcar una de Com revisades
+        order: ordenar per
+        orders:
+          created_at: més Recents
+          flags: Mas denunciades
+        title: propostes
+    users:
+      index:
+        hidden: BLOQUEJAT
+        hide: bloquejar
+        search: Cercar
+        search_placeholder: enviar per correu electrònic o nom d'usuari
+        title: usuaris bloquejar
+      notice_hide: Usuari BLOQUEJAT. S'han ocultat SEUS tots els debats i comentaris.

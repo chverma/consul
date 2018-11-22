@@ -1,0 +1,117 @@
+---
+ca:
+  legislation:
+    annotations:
+      comments:
+        see_all: veure tots
+        see_complete: veure complet
+        comments_count:
+          one: " %{count} comentari"
+          other: " %{count} comentaris"
+        replies_count:
+          one: " %{count} Resposta"
+          other: " %{count} respostes"
+        cancel: Cancel
+        publish_comment: publicar Comentari
+      form:
+        phase_not_open: Aquesta fase del Procés cap oberta this
+        login_to_comment: Necessites %{signin} o %{signup} de registre per comentaris.
+        signin: iniciar Sessió
+        signup: registrar-
+      index:
+        title: comentaris
+        see_in_context: Veure En Context
+        comments_about: sobre Comentaris
+        comments_count:
+          one: " %{count} comentari"
+          other: " %{count} comentaris"
+      show:
+        title: comentari
+      version_chooser:
+        seeing_version: Comentaris per a la versió
+        see_text: Veure esborrany del text
+    draft_versions:
+      changes:
+        title: canvis
+        seeing_changelog_version: Resum de canvis de la revisió
+        see_text: Veure esborrany del text
+      show:
+        loading_comments: Carregant comentaris
+        seeing_version: Estàs veient la Revisió
+        select_draft_version: Selecciona borrador
+        select_version_submit: veure
+        updated_at: "% Actualitzada el {data}"
+        see_changes: Veure Resum de Canvis
+        see_comments: Veure tots els comentaris
+        text_toc: índex
+        text_body: text
+        text_comments: comentaris
+    processes:
+      header:
+        view_process_information: Veure Informació del Procés
+      debate:
+        empty_questions: No hi ha preguntes fenc
+        participate: Fes les aportacions A debat Previ Participant en Els Següents
+          Temes.
+      header_full:
+        title: Col·labora en l'elaboració de la normativa sobre
+        description: En què consisteix l'
+        target: A qui va Dirigit
+        how_to_participate: Com pots Participar
+        more_info: Més informació i context
+      index:
+        filters:
+          open: processos Actius
+          next: Pròximament
+          past: acabats
+        no_open_processes: No hi ha Actius Processos
+        no_next_processes: No hi ha planejats fenc Processos
+        no_past_processes: No hi ha acabats fenc Processos
+      phase_not_open:
+        not_open: Aquesta fase del Procés encara no oberta this
+      phase_empty:
+        empty: No hi ha res publicat encara
+      process:
+        see_latest_comments: Veure Últimes aportacions
+        see_latest_comments_title: Aportar un this Procés
+      shared:
+        key_dates: dates clau
+        debate_dates: previ debat
+        draft_publication_date: publicació esborrany
+        allegations_dates: al·legacions
+        final_publication_date: resultats publicació
+    questions:
+      comments:
+        comment_button: Resposta de Publicar
+        comments_title: respostes obertes
+        comments_closed: fase Tancada
+        form:
+          leave_comment: Deixa teu Resposta
+      question:
+        comments:
+          zero: sense comentaris
+          one: " %{count} comentari"
+          other: " %{count} comentaris"
+        debate: debat
+      show:
+        answer_question: Resposta Enviar
+        next_question: PREGUNTA següent
+        first_question: primera PREGUNTA
+        share: compartir
+        title: Procés de Legislació col·laborativa
+      participation:
+        phase_not_open: Aquesta fase oberta sense this
+        organizations: Les Organitzacions no poden Participar en el debat
+        signin: iniciar Sessió
+        signup: registrar-
+        unauthenticated: Necessites %{signin} o %{signup} de registre per Participar en
+          el debat.
+        verified_only: Només els Usuaris verificats poden Participar en el debat,%
+          {} verify_account.
+        verify_account: verifica teu Compte
+        debate_phase_not_open: La fase de debat Previ ja ha finalitzat I En Aquest
+          Moment no s'accepten respostes
+    shared:
+      share: Compartir
+      share_comment: Comentari Sobre la  %{version_name} de l'esborrany del Procés%
+        {} process_name

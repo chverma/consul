@@ -1,0 +1,105 @@
+---
+ca:
+  pages:
+    census_terms: Per verificar El Compte Hi ha Que Tenir 16 anys o més i Estar empadronat
+      aportant les Dades indicats anteriorment, els Quins seran contrastats. Acceptant
+      El Procés de verificació Accepta donar la seva Consentiment per contrastar Aquesta
+      Informació, Així Com MITJANS DE CONTACTE Que Figurin ÉS Aquests fitxers. Les
+      Dades aportades seran incorporades i Tractats En un fitxer Indicat anteriorment
+      a les Condicions d'Ús del portal.
+    conditions: Condicions d'ús
+    general_terms: Termes i Condicions
+    more_info:
+      title: Descobreix %{org_name}
+      subtitle: Aprèn Tot El Que POTS Fer En Aquesta web.
+      guide: Explica this guide Cada Una de les seccions de %{org_name} . POTS ampliar
+        la informació en els enllaços d ' "Informació Detallada".
+      menu:
+        debates: Debats
+        proposals: propostes
+        budgets: Pressupostos participatius
+        other: Altra Informació d'Interès
+      debates:
+        title: debats
+        description: Crear un altre fil a El que debatre Sobre el tema any Que vulguis
+          compartir amb la resta de gent de la teva ciutat.
+        feature_1: Per crear de l'ONU debat Tens Que %{link}
+        feature_1_link: registrar-te a %{org_name}
+        feature_2_html: Els debats poden Ser valorats utilitzant els Botons de <strong>
+          estic d'acord <
+        image_alt: Botons per valorar els debats
+        figcaption: Botons "Estic d'acord" i "No estic d'acord", paràgraf valorar
+          els debats.
+      proposals:
+        title: Propostes
+        description: Proposa El Que Vols Que l'Ajuntament porti a Cap I dóna suport
+          Propostes d'Altres Persones.
+        feature_1: 'Per crear Una proposta Tens Que %{link}, per recolzar-les: A més
+          Has verificar teu Compte.'
+        feature_1_link: Registrarte en %{org_name}
+        feature_2_html: Les Propostes Que aconsegueixin <strong> al Suport de l'1%
+          de la gent <
+        feature_3_html: Si Hi ha Més gent un favor Que és contraindicat en la Votació,
+          <strong> l'Ajuntament de ASSUMEIX La Proposta i es Fa <
+        image_alt: Botó per donar avui tota Una proposta
+        figcaption_html: Botó per "donar suport" Una proposta. <br> de Quan Abast
+          L'Nombre de Suports Passarà un Votació.
+      budgets:
+        title: Pressupostos participatius
+        description: Els Primers Sis mesos de Cada any POTS Decidir COM Gastar part
+          del pressupost.
+        feature_1: Per crear de les Nacions Unides Projecte de despesa Tens Que %{link}
+          i verificar teu Compte.
+        feature_1_link: registrar-te a %{org_name}
+        feature_2_html: En Primer Lloc comença la <strong> fase d'acceptació <
+        feature_3_html: Després del fenc Una <strong> fase de Suports <
+        feature_4_html: Al final de fenc Una <strong> Fase de Votació <
+        image_alt: Diferents fases de pressupost participatiu de l'ONU
+        figcaption_html: Fase de "Suports" i "Fase de Votació" dels Pressupostos participatius.
+      polls:
+        title: votacions
+        description: Les Propostes Ciutadanes Que arribin al 1% de Suports passaran
+          una Votació.
+        feature_1: Per Participar En La Pròxima Votació Tens Que %{link} i verificar
+          teu Compte.
+        feature_1_link: registrar-te a %{org_name}
+        feature_2: Poden Votar Totes les Persones empadronades a la Ciutat Majors
+          de 16 anys.
+        feature_3: Els resultats de Totes les Votacions seran vinculants per al Govern.
+      faq:
+        title: "¿Problemes tècnics?"
+        description: Llegeix les preguntes més freqüents i Resol els teus dubtes.
+        button: Veure Preguntes més freqüents
+        page:
+          title: Preguntes més freqüents
+          description: Utilizació this page per a resoldre les preguntes més freqüents
+            a Els Usuaris del web.
+          faq_1_title: PREGUNTA 1
+          faq_1_description: Aquest és un exemple per a la descripció de la pregunta
+            un.
+      other:
+        title: Altra Informació d'Interès
+        how_to_use: Utilizació %{org_name} al teu municipi
+      how_to_use:
+        text: "Utilitza-ho al teu municipi o Lliurement Ajuda'ns a millorar-lo, és
+          programari lliure.
+
+          Aquest Portal de Govern Obert fa servir la [aplicació Consul] (https://github.com/ayuntamientomadrid 'github consul') que és programari lliure, amb [llicència AGPLv3] (http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu'), això vol dir en paraules senzilles, que qualsevol pot lliurement usar el codi, copiar-lo, veure-ho en detall, modificar-lo, i redistribuir-se al món amb les modificacions que vulgui (mantenint el que altres puguin al seu torn fer el mateix). Perquè creiem que la cultura és millor i més rica quan s'allibera.
+
+           Si ets programador, pots veure el codi i ajudar-nos a millorar-lo en [aplicació Consul] (https://github.com/ayuntamientomadrid 'github consultes')."
+      titles:
+        how_to_use: Utilitza-ho al teu municipi
+    privacy: Política de privacitat
+    titles:
+      accessibility: accessibilitat
+      conditions: Condicions d'USO
+      more_info: Més informació sobre %{org_name}
+      privacy: Política de privacitat
+    verify:
+      code: Que codi té Rebut en carta TEU
+      email: e-mail
+      info: 'Per verificar teu Compte introduir les Dades amb què et vas registrar:'
+      info_code: 'Ara introduir el codi Que té Rebut a la teva carta:'
+      password: clau
+      submit: Verificar el meu compte
+      title: Verifica teu Compte

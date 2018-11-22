@@ -1,0 +1,141 @@
+---
+ca:
+  devise_views:
+    confirmations:
+      new:
+        email_label: e-mail
+        submit: INSTRUCCIONS reenviar
+        title: INSTRUCCIONS reenviar de Confirmació
+      show:
+        instructions_html: Anem a un procedure Confirmar El Compte amb el correu electrònic
+          <b> %{email} <
+        new_password_confirmation_label: Repeteix La Clau de Nou
+        new_password_label: Nova clau d'accés
+        please_set_password: Si us plau introduir Una Nova clau d'accés per El seu
+          compte (et permetrà Fer inici de sessió amb el correu electrònic de Més
+          amunt)
+        submit: confirmar
+        title: Confirmar el meu compte
+    mailer:
+      confirmation_instructions:
+        confirm_link: Confirmar el meu compte
+        text: 'POTS Confirmar El teu Compte de Correu electrònic en el següent enllaç:'
+        title: Et donem La Benvinguda al Portal de Govern Obert
+        welcome: Benvingut
+      reset_password_instructions:
+        change_link: Change to de la contrasenya
+        hello: hola
+        ignore_text: Si el teu no ho ha SOL·LICITAT, POTS Ignora Aquest correu electrònic.
+        info_text: El teu Contrasenya no canviarà Fins que no accedeixis a l'enllaç
+          i la modifiquis.
+        text: 'S''ha: sol·licitat change teva Contrasenya, POTS Fer-ho en el següent
+          enllaç:'
+        title: Canvia el teu Contrasenya
+      unlock_instructions:
+        hello: hola
+        info_text: El teu Compte Bloquejada ha Estat CAUSA una ONU excessiu, Nombre
+          d'Intents fallits d'Alta.
+        instructions_text: 'Follow the següent enllaç per desbloquejar teu Compte:'
+        title: Tu compte ha estat bloquejada
+        unlock_link: Desbloquejar el meu Compte
+    menu:
+      login_items:
+        login: Entrada
+        logout: sortir
+        signup: Registrar
+    organizations:
+      registrations:
+        new:
+          email_label: e-mail
+          organization_name_label: Nom de l'Organització
+          password_confirmation_label: contrasenya Confirmar
+          password_label: clau
+          phone_number_label: telèfon
+          responsible_name_label: Nom i cognoms de la persona responsable del col·lectiu
+          responsible_name_note: Serà la persona Representant de l'Associació
+          submit: Registrar
+          title: Organització de Com Registrar
+        success:
+          back_to_index: Entès, tornar a la pàgina principal
+          instructions_1_html: En breu <b> ens posarem en contacte amb tu <
+          instructions_2_html: De Mentre <b> REVISA teu Correu electrònic <
+          instructions_3_html: Una Vegada Confirmat, podràs Començar una Participar
+            Com Col·lectiu sense Verificat.
+          thank_you_html: Gràcies per registrar el teu Col·lectiu al web. Ara this
+            <b> Pendent de verificació <
+          title: Registre d'Organització
+    passwords:
+      edit:
+        change_submit: Change to de la contrasenya
+        password_confirmation_label: Confirmar contrasenya nova
+        password_label: Nova Contrasenya
+        title: Canvia el teu Contrasenya
+      new:
+        email_label: Correu electrònic
+        send_submit: INSTRUCCIONS Rebre
+        title: "¿Ha oblidat la contrasenya?"
+    sessions:
+      new:
+        email_label: e-mail
+        password_label: clau
+        remember_me: Recordar-
+        submit: Entrada
+        title: Entrada
+    shared:
+      links:
+        login: Entrada
+        new_confirmation: No té Rebut INSTRUCCIONS to confirm teu Compte?
+        new_password: "¿Olvidaste la teva contrasenya?"
+        new_unlock: No s'ha rebut s instruccions per desbloquejar?
+        signin_with_provider: Per entrar amb %{provider}
+        signup: No tens Una Compte?  %{signup_link} 
+        signup_link: registra't
+    unlocks:
+      new:
+        email_label: e-mail
+        submit: Reenviar s instruccions per desbloquejar
+        title: Reenviar s instruccions per desbloquejar
+    users:
+      registrations:
+        delete_form:
+          erase_reason_label: Raó de la baixa
+          info: This ACCIÓ cap Es pot desfer. Una Vegada Que des de baixa El teu Compte,
+            no podràs tornar a Fer d'inici de sessió amb ella.
+          info_reason: Si Vols, ESCRIU El Motiu pel qual et dones de baixa (opcional).
+          submit: Esborrar el meu compte
+          title: Darme de baixa
+        edit:
+          current_password_label: clau real
+          edit: editar
+          email_label: e-mail
+          leave_blank: Deixar en blanc si no canviar-VOLS
+          need_current: NECESSITEM teva Contrasenya actual to confirm els Canvis
+          password_confirmation_label: Confirmar contrasenya nova
+          password_label: Nova Contrasenya
+          update_submit: actualitzar
+          waiting_for: 'Esperant Confirmació de:'
+        new:
+          cancel: Cancel inici de sessió
+          email_label: El teu Correu electrònic
+          organization_signup: "¿Representes 1 organització Una"
+          organization_signup_link: aquí registra't
+          password_confirmation_label: Repeteix la Clau anterior
+          password_label: Contrasenya Que faràs servir per accedir a aquest aquest
+            lloc
+          redeemable_code: El teu codi de verificació (si té Rebut Una carta amb el)
+          submit: Registrar
+          terms: En registrar acceptes les condicions} {%
+          terms_link: Condicions d'USO
+          terms_title: En registrar acceptes les Condicions d'USO
+          title: Registrar
+          username_is_available: Nom d'usuari disponible
+          username_is_not_available: Nom d'usuari ja existent
+          username_label: Nom d'usuari
+          username_note: Nom Públic Que apareixerà en les teves publicacions
+        success:
+          back_to_index: Entès, tornar a la pàgina principal
+          instructions_1_html: Si us plau <b> REVISA teu Correu electrònic <
+          instructions_2_html: Una Vegada Confirmat, podràs Començar una Participar.
+          thank_you_html: Gràcies per registrar-te al web. Ara Has <b> compro teu
+            Correu <
+          title: Revisa el teu Correu

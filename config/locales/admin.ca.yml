@@ -1,0 +1,920 @@
+---
+ca:
+  admin:
+    header:
+      title: Administració
+    actions:
+      actions: Accions
+      confirm: Estàs segur?
+      confirm_hide: Confirmar
+      hide: Amaga
+      hide_author: Bloquejar l'autor
+      restore: Tornar a mostrar
+      mark_featured: Destacar
+      unmark_featured: Llevar destacat
+      edit: Editar
+      configure: Configura
+    banners:
+      index:
+        title: Banners
+        create: Crear un banner
+        edit: Editar banner
+        delete: Eliminar banner
+        filters:
+          all: Tots
+          with_active: Actius
+          with_inactive: Inactius
+        preview: Vista prèvia
+      banner:
+        title: títol
+        description: Descripció
+        target_url: Enllaç
+        style: Estil
+        image: Imatge
+        post_started_at: Inici de publicació
+        post_ended_at: Fi de publicació
+      edit:
+        editing: Editar el banner
+        form:
+          submit_button: Desar Canvis
+      errors:
+        form:
+          error:
+            one: error ha impedit desar el banner
+            other: errors han impedit desar el banner.
+      new:
+        creating: Crear banner
+    activity:
+      show:
+        action: Acció
+        actions:
+          block: Bloquejat
+          hide: Ocultat
+          restore: Restaurant
+        by: Moderat per
+        content: Contingut
+        filter: Mostra
+        filters:
+          all: Tot
+          on_comments: Comentaris
+          on_debates: Debats
+          on_proposals: Propostes
+          on_users: Usuaris
+        title: Activitat dels moderadors
+        type: Tipus
+    budgets:
+      index:
+        title: Pressupostos participatius
+        new_link: Crear nou pressupost
+        filters:
+          current: Oberts
+          finished: Acabats
+        budget_investments: Veure propostes d'inversió
+        table_name: nom
+        table_phase: fase
+        table_investments: Propostes d'inversió
+        table_edit_groups: Grups de partides
+        table_edit_budget: Editar
+        edit_groups: Editar grups de partides
+        edit_budget: Editar pressupost
+      create:
+        notice: "Nova campanya de pressupostos participatius creada amb èxit!"
+      update:
+        notice: Campanya de pressupostos participatius actualitzada
+      edit:
+        title: Edita campanya de pressupostos participatius
+      new:
+        title: Nou ciutadà pressupost
+      show:
+        groups:
+          one: 1 Grup de partides pressupostàries
+          other: " %{count} Grups de partides pressupostàries"
+      form:
+        group: Nom del grup
+        no_groups: No hi ha grups creats encara. Cada usuari podrà votar en una sola partida de cada grup.
+        add_group: Afegeix nou grup
+        create_group: Crear Grup
+        heading: Nom de la partida
+        add_heading: Afegir partida
+        amount: Quantitat
+        save_heading: Desar partida
+        no_heading: Aquest grup no té cap partida assignada.
+        table_heading: Partida
+        table_amount: Quantitat
+    budget_investments:
+      index:
+        heading_filter_all: Totes les partides
+        administrator_filter_all: Tots els administradors
+        valuator_filter_all: Tots els avaluadors
+        tags_filter_all: Totes les etiquetes
+        filters:
+          valuation_open: Obertes
+          without_admin: Sense administrador
+          managed: Gestionant
+          valuating: En avaluació
+          valuation_finished: Avaluació finalitzada
+          valuation_finished_feasible: Viables
+          selected: Seleccionades
+          all: Totes
+        title: Propostes d'inversió
+        assigned_admin: Administrador assignat
+        no_admin_assigned: Sense administrador assignat
+        no_valuators_assigned: Sense avaluador
+        feasibility:
+          feasible: Viable ( %{price})
+          unfeasible: Inviable
+          undecided: Sense decidir
+        selected: Seleccionada
+        select: Seleccionar
+        table_id: ID
+        table_title: Títol
+        table_supports: Suports
+        table_admin: Administrador
+        table_valuator: Avaluador
+        table_geozone: Àmbit d'actuació
+        table_feasibility: Viabilitat
+        table_valuation_finished: Av. Fi.
+        table_selection: Selecció
+      show:
+        assigned_admin: administrador assignat
+        assigned_valuators: avaluadors ASSIGNATS
+        classification: classificació
+        info: "%{budget_name} - Grup: %{group_name} - Proposta d'inversió %{id}"
+        edit: editar
+        edit_classification: classificació editar
+        by: autor
+        sent: data
+        group: grup
+        heading: partida
+        dossier: Informe
+        edit_dossier: Informe editar
+        tags: etiquetes
+        undefined: sense definir
+      edit:
+        classification: classificació
+        assigned_valuators: avaluadors
+        select_heading: seleccionar Partida
+        submit_button: actualitzar
+        tags: Etiquetas
+        tags_placeholder: ESCRIU Les Etiquetes Que vulguis Separades per comes (,)
+        undefined: sense definir
+      search_unfeasible: inviables Cercar
+    comments:
+      index:
+        filter: filtre
+        filters:
+          all: tots
+          with_confirmed_hide: Confirmats
+          without_confirmed_hide: pendents
+        hidden_debate: Debat ocult
+        hidden_proposal: proposta oculta
+        title: Comentaris ocultos
+    dashboard:
+      index:
+        back: Tornar a
+        title: Administració
+    debates:
+      index:
+        filter: Filtre
+        filters:
+          all: tots
+          with_confirmed_hide: confirmats
+          without_confirmed_hide: Pendents
+        title: debats ocults
+    hidden_users:
+      index:
+        filter: Filtre
+        filters:
+          all: tots
+          with_confirmed_hide: confirmats
+          without_confirmed_hide: pendents
+        title: usuaris bloquejats
+      show:
+        email: 'e-mail:'
+        hidden_at: 'BLOQUEJAT:'
+        registered_at: 'Data d''alta:'
+        title: Activitat de l'Usuari ( %{user})
+    legislation:
+      processes:
+        create:
+          notice: Procés CREAT correctament. <a href="%{link}"> Fes clic per Veure-ho</a>
+          error: No s'ha pogut crear del Procés
+        update:
+          notice: Procés actualitzat correctament. <a href="%{link}"> Fes clic per veure-ho </a>
+          error: No s'ha pogut Actualitzar El Procés
+        destroy:
+          notice: Procés Eliminat correctament
+        edit:
+          back: tornar
+          submit_button: canvis i estalviar
+        errors:
+          form:
+            error: error
+        form:
+          active: activa
+          process: procés
+          debate_phase: fase prèvia
+          allegations_phase: Fase d'al·legacions
+          start: Inici
+          end: aleta
+          use_markdown: EUA de rebaixes per formatar el text
+          title_placeholder: ESCRIU EL títol del Procés
+          summary_placeholder: Resum cort de la descripció
+          description_placeholder: Una ànec Descripció del Procés
+          target_placeholder: Descriure A qui va Dirigit
+          how_to_participate_placeholder: Participar descriure COM
+          additional_info_placeholder: Ànec any Informació addicional Que Pugui Ser
+            d'Interès
+        index:
+          create: Nou procés
+          delete: esborrar
+          title: Processos de Legislació col·laborativa
+          filters:
+            open: oberts
+            next: properament
+            past: passats
+            all: tots
+        new:
+          back: tornar
+          title: Crear nou procés de legislació col·laborativa
+          submit_button: procés Crear
+        process:
+          title: procés
+          comments: comentaris
+          status: estat
+          creation_date: creació Data
+          status_open: obert
+          status_closed: tancat
+          status_planned: properament
+        subnav:
+          info: informació
+          draft_texts: text
+          questions: debat
+      draft_versions:
+        create:
+          notice: Esborrany CREAT correctament. <a href="%{link}"> Fes clic per Veure-ho
+            <
+          error: No s'ha pogut Crear l'esborrany
+        update:
+          notice: Esborrat actualitzat correctament. <a Href="%{link}"> Fes clic per
+            veure-ho <
+          error: No s'ha pogut Actualitzar l'esborrany
+        destroy:
+          notice: Eliminat esborrany correctament
+        edit:
+          back: tornar
+          submit_button: canvis i estalviar
+          warning: Ojo, ha editat el text. Per conservar de forma permanent els canvis,
+            no et oblideu de fer clic a Guardar.
+        errors:
+          form:
+            error: error
+        form:
+          title_html: <Span class = "fort"> Editant %{draft_version_title}  </span>
+          launch_text_editor: Llançar editor de text
+          close_text_editor: editor de text tancar
+          use_markdown: EUA de rebaixes per formatar el text
+          hints:
+            final_version: Serà la versió que es publiqui a Publicació de resultats.
+              Aquesta versió no es pot comentar
+            status:
+              draft: Podràs previsualitzar-Com loguejat, Ningú Més Ho podrà veure
+              published: Serà visible Per Tot El Món
+          title_placeholder: ESCRIU EL títol of this Versió esborrany
+          changelog_placeholder: Descriure any Canvi rellevant amb la versió anterior
+          body_placeholder: ESCRIU EL text de l'esborrany
+        index:
+          title: Versions de l'esborrany
+          create: crear versió
+          delete: Esborrar
+          preview: previsualitzar
+        new:
+          back: tornar
+          title: Crear nova versió
+          submit_button: crear versió
+        statuses:
+          draft: esborrany
+          published: publicat
+        table:
+          title: títol
+          created_at: CREAT
+          comments: comentaris
+          final_version: VERSIÓ FINAL
+          status: estat
+      questions:
+        create:
+          notice: PREGUNTA correctament Creada. <a href="%{link}"> Fes clic per Veure-la
+            <
+          error: No s'ha pogut crear del no PREGUNTA
+        update:
+          notice: PREGUNTA Actualitzada correctament. <a href="%{link}"> Fes clic
+            per Veure-la <
+          error: No s'ha pogut Actualitzar la PREGUNTA
+        destroy:
+          notice: PREGUNTA correctament eliminada
+        edit:
+          back: tornar
+          title: Edita " %{question_title}"
+          submit_button: canvis i estalviar
+        errors:
+          form:
+            error: error
+        form:
+          add_option: 'Resposta: Afegir tancada'
+          title_placeholder: ESCRIU UN títol a la PREGUNTA
+          value_placeholder: ESCRIU Una Resposta tancada
+        index:
+          back: tornar
+          title: Preguntes Associades un Procés Aquest
+          create: crear PREGUNTA
+          delete: esborrar
+        new:
+          back: Tornar
+          title: Crear nova PREGUNTA
+          submit_button: crear PREGUNTA
+        table:
+          title: títol
+          question_options: OPCIONS de Resposta
+          answers_count: Nombre de respostes
+          comments_count: Nombre de comentaris
+        question_option_fields:
+          remove_option: ELIMINAR
+    administrators:
+      index:
+        title: Administradors
+      administrator:
+        add: 'Com Administrador: Afegir'
+        delete: esborrar
+        restricted_removal: Sentim, no et pots eliminar a tu mateix de la llista
+      search:
+        email_placeholder: Cercar usuari per correu electrònic
+        search: Cercar
+        user_not_found: Usuari No Trobat
+    managers:
+      index:
+        title: gestors
+      manager:
+        add: 'Com Gestor: Afegir'
+        delete: esborrar
+      search:
+        email_placeholder: Cerca usuari per correu electrònic
+        search: Cercar
+        user_not_found: Usuari No Trobat
+    menu:
+      activity: Activitat de Moderadors
+      admin: Menú d'Administració
+      banner: gestionar banderes
+      proposals_topics: Temes de propostes
+      poll_questions: ciutadanes preguntes
+      budgets: Pressupostos participatius
+      geozones: gestionar Districtes
+      hidden_comments: comentaris ocults
+      hidden_debates: debats ocults
+      hidden_proposals: propostes ocultes
+      hidden_users: usuaris bloquejats
+      managers: gestors
+      administrators: Administradors
+      moderators: Moderadors
+      newsletter: Enviament de Butlletins
+      valuators: avaluadors
+      poll_officers: Presidents de taula
+      polls: votacions
+      poll_booths: Descripció de la ubicació d'urnes
+      officials: càrrecs públics
+      organizations: organitzacions
+      settings: configuration mundial
+      spending_proposals: Propostes d'Inversió
+      stats: Estadístiques
+      signature_sheets: Fulles de signatures
+      site_customization:
+        pages: pàgines Personalitzar
+        images: Personalitzar imatges
+        content_blocks: Personalitza els blocs
+      title_categories: categories
+      title_moderated_content: Contingut moderat
+      title_budgets: Pressupostos
+      title_polls: votacions
+      title_profiles: perfils
+      title_banners: banderes
+      title_site_customization: personalitzar lloc
+      legislation: col·laborativa Legislació
+      users: usuaris
+    moderators:
+      index:
+        title: moderadors
+      moderator:
+        add: 'Moderador: Afegir de Com'
+        delete: esborrar
+      search:
+        email_placeholder: Cercar usuari per correu electrònic
+        search: Cercar
+        user_not_found: Usuari No Trobat
+    newsletters:
+      index:
+        title: Enviament de butlletins
+        button: Descarregar postal amb Llista de membres
+    valuators:
+      index:
+        title: avaluadors
+      valuator:
+        description_placeholder: Descripció (opcional)
+        user_found: trobat usuari
+        add: 'Com avaluador: Afegir'
+      search:
+        email_placeholder: Cercar usuari per correu electrònic
+        search: Cercar
+        user_not_found: Usuari No Trobat
+      summary:
+        title: Resum d'avaluació de propostes d'inversió
+        valuator_name: avaluador
+        finished_and_feasible_count: finalitzades viables
+        finished_and_unfeasible_count: finalitzades inviables
+        finished_count: finalitzades
+        in_evaluation_count: en evaluation
+        total_count: total
+        cost: cost total de
+    poll_officers:
+      index:
+        title: Presidents de taula
+      officer:
+        add: ": Afegir Com a President de taula"
+        delete: càrrega ELIMINAR
+        name: nom
+        email: Correu electrònic
+        entry_name: president de taula
+      search:
+        email_placeholder: Cercar usuari per correu electrònic
+        search: Cercar
+        user_not_found: Usuari No Trobat
+    poll_officer_assignments:
+      flash:
+        destroy: Eliminat torn de president de taula
+        create: Afegit torn de president de taula
+        error_destroy: S'ha produït ONU error en ELIMINAR el torn
+        error_create: Es error ha Produït ONU al Intentar Crear el torn
+      index:
+        officers_title: LLISTAT ASSIGNATS de presidents de taula
+        no_officers: No hi ha presidents de taula ASSIGNATS 1 Votació this.
+        table_name: nom
+        table_email: e-mail
+        add_officer_assignments: ": Afegir torns Com a president de taula"
+        edit_officer_assignments: modifica torns
+      by_officer:
+        new_assignment: nou torn
+        date: data
+        booth: urna
+        assignment: assignació
+        select_date: seleccionar dia
+        select_booth: seleccionar urna
+        add_assignment: 'torn: Afegir'
+        remove_assignment: torn ELIMINAR
+        assignments: Torns de Com a president de taula En Aquesta Votació
+        no_assignments: No té torns de Com a president de taula En Aquesta Votació.
+        recounts: diaris recomptes
+        recount: Recompte diari (president de taula)
+        final_recounts: els finals dels recomptes
+        final_recount: Recompte final (president de taula)
+    poll_booth_assignments:
+      flash:
+        destroy: desasignada urna
+        create: urna assignada
+        error_destroy: S'ha Produït error ONU al desassignar l'urna
+        error_create: S'ha Produït error ONU al Intentar Assignar l'urna
+      show:
+        location: Descripció de la ubicació
+        officers: Presidents de taula
+        officers_list: Llista de presidents de taula ASSIGNATS una urna this
+        no_officers: Sense presidents de fenc de taula urna paràgraf this
+        recounts: recomptes
+        recounts_list: Llista dels recomptes of this urna
+        no_recounts: No hi ha recomptes Diaris d'urna this
+        date: data
+        count_by_officer: Recompte diari (president de taula)
+        count_final: Recompte final (president de taula)
+        count_by_system: Vots (automàtic)
+      index:
+        booths_title: Llistat d'urnes assignades
+        no_booths: No hi ha urnes fenc assignades 1 Votació this.
+        table_name: nom
+        table_location: Descripció de la ubicació
+        table_assignment: assignació
+        remove_booth: urna desassignar
+        add_booth: assignar urna
+    polls:
+      index:
+        title: Llistat de Votacions
+        no_polls: No hi ha Cap Votació.
+        create: votació Crear
+        name: nom
+        dates: dates
+      new:
+        title: Nova Votació
+        submit_button: votació Crear
+      edit:
+        title: votació
+        submit_button: votació Actualitzar
+      show:
+        questions_tab: Preguntes
+        booths_tab: urnes
+        officers_tab: Presidents de taula
+        recounts_tab: recomptes
+        results_tab: resultats
+        no_questions: No hi ha preguntes fenc assignades 1 Votació this.
+        questions_title: Llista de preguntes assignades
+        remove_question: desassignar PREGUNTA
+        add_question: incloure PREGUNTA
+        table_title: títol
+        table_assignment: assignació
+        table_name: nom
+      flash:
+        question_added: PREGUNTA afegit una Votació this
+        error_on_question_added: No es pot assignar la pregunta
+        question_removed: PREGUNTA eliminada of this Votació
+        error_on_question_removed: No Es Va poder treure la PREGUNTA
+    questions:
+      index:
+        title: ciutadanes preguntes
+        create: Crear ciutadana PREGUNTA
+        no_questions: No hi ha Cap PREGUNTA ciutadana.
+        filter_poll: Filtrar per Votació
+        select_poll: votació Seleccionar
+        questions_tab: Preguntes ciutadanes
+        successful_proposals_tab: Propostes Que de han superat el llindar
+        create_question: Crear PREGUNTA paràgraf Votació
+        table_proposal: proposta
+        table_question: Pregunta
+      edit:
+        title: PREGUNTA editar ciutadana
+      new:
+        title: Crear ciutadana PREGUNTA
+        poll_label: votació
+        valid_answers_note: ESCRIU les respostes Separades per comes (,)
+      show:
+        proposal: Proposta Ciutadana originals
+        author: autor
+        title: títol
+        valid_answers: respostes Vàlides
+        description: Descripció
+        preview: Veure en la web
+    recounts:
+      index:
+        title: recomptes
+        no_recounts: No hi ha res del que Que Fer recompte
+        table_booth_name: urna
+        table_recounts: Diaris recomptes acumulats (president de taula)
+        table_final_recount: Recompte final (president de taula)
+        table_system_count: Vots (automàtic)
+    results:
+      index:
+        title: resultats
+        no_results: No hi ha resultats
+        table_whites: Paperetes en blanc
+        table_nulls: paperetes nul·les
+        table_answer: Resposta
+        table_votes: vots
+    booths:
+      index:
+        title: Llista d'urnes
+        no_booths: No hi ha urnes fenc.
+        add_booth: 'urna: Afegir'
+        name: nom
+        location: Descripció de la ubicació
+      new:
+        title: Nova urna
+        name: nom
+        location: Descripció de la ubicació
+        submit_button: crear urna
+      edit:
+        title: edita urna
+        submit_button: actualitzar urna
+      show:
+        location: Descripció de la ubicació
+    officials:
+      edit:
+        destroy: ELIMINAR Condició de 'Càrrec Público'
+        title: 'Càrrecs Públics: Edita usuari'
+      flash:
+        official_destroyed: 'Dades Guardats: l''usuari ja No És Públic de càrrega'
+        official_updated: Dades Guardats Públic del càrrec
+      index:
+        title: càrrecs públics
+      level_0: No És Públic de càrrega
+      level_1: nivell 1
+      level_2: nivell 2
+      level_3: nivell 3
+      level_4: nivell 4
+      level_5: nivell 5
+      search:
+        edit_official: Edita Públic de càrrega
+        make_official: Convertir en la càrrega Públic
+        title: 'Càrrecs Públics: Cerca d''Usuaris'
+    organizations:
+      index:
+        filter: filtre
+        filters:
+          all: totes
+          pending: pendents
+          rejected: rebutjades
+          verified: verificades
+        hidden_count_html:
+          one: 'Fenc: A més <strong> Una organització <'
+          other: Fenc <strong> %{count} <Organitzacions
+        reject: rebutjar
+        rejected: Rechazada
+        search: Cerca
+        search_placeholder: Nom, correu electrònic o Telèfon
+        title: organitzacions
+        verified: verificada
+        verify: verificar
+      search:
+        title: Cercar Organitzacions
+    proposals:
+      index:
+        filter: filtre
+        filters:
+          all: totes
+          with_confirmed_hide: confirmades
+          without_confirmed_hide: pendents
+        title: propostes ocultes
+    settings:
+      flash:
+        updated: valor actualitzat
+      index:
+        banners: estil Banner
+        banner_imgs: imatges de pancarta
+        title: configuration mundial
+        update_setting: Actualitzar
+        feature_flags: funcionalitats
+        features:
+          enabled: activada Funcionalitat
+          disabled: funcionalitat desactivada
+          enable: Activa
+          disable: desactivar
+    shared:
+      booths_search:
+        button: Cercar
+        placeholder: Cercar per nom urna
+      poll_officers_search:
+        button: Cercar
+        placeholder: Cercar presidents de taula
+      poll_questions_search:
+        button: Cercar
+        placeholder: Preguntes Cerca
+      proposal_search:
+        button: Cercar
+        placeholder: Propostes buscar per títol, codi, o Descripció PREGUNTA
+      spending_proposal_search:
+        button: Cercar
+        placeholder: Propostes buscar per títol o Descripció
+      user_search:
+        button: Cercar
+        placeholder: Cercar per nom usuari o correu electrònic
+      search_results: Resultats de la cerca
+      no_search_results: No s'han trobat resultats.
+    spending_proposals:
+      index:
+        geozone_filter_all: Tots els àmbits d'actuació
+        administrator_filter_all: Tots els administradors
+        valuator_filter_all: Tots els avaluadors
+        tags_filter_all: Totes les Etiquetes
+        filters:
+          valuation_open: obertes
+          without_admin: sense administrador
+          managed: gestionant
+          valuating: en evaluation
+          valuation_finished: finalitzada evaluation
+          all: totes
+        title: Propostes d'Inversió paràgraf Pressupostos participatius
+        assigned_admin: administrador assignat
+        no_admin_assigned: Sense administrador assignat
+        no_valuators_assigned: sense avaluador
+        summary_link: Resum de propostes
+        valuator_summary_link: Resum d'avaluadors
+        feasibility:
+          feasible: Viable ( %{price} )
+          not_feasible: inviable
+          undefined: sense definir
+      show:
+        assigned_admin: administrador assignat
+        assigned_valuators: avaluadors ASSIGNATS
+        back: tornar
+        classification: classificació
+        heading: Proposta d'inversió %{id}
+        edit: editar
+        edit_classification: classificació editar
+        association_name: Associació
+        by: Autor
+        sent: Data
+        geozone: Àmbito
+        dossier: Informe
+        edit_dossier: Informe editar
+        tags: Etiquetas
+        undefined: sense definir
+      edit:
+        classification: classificació
+        assigned_valuators: avaluadors
+        submit_button: actualitzar
+        tags: etiquetes
+        tags_placeholder: ESCRIU Les Etiquetes Que vulguis Separades per comes (,)
+        undefined: sense definir
+      summary:
+        title: Resum de propostes d'Inversió
+        title_proposals_with_supports: Resum paràgraf Que Propostes de han superat
+          la fase de Suports
+        geozone_name: Àmbit de ciutat
+        finished_and_feasible_count: finalitzades viables
+        finished_and_unfeasible_count: finalitzades inviables
+        finished_count: finalitzades
+        in_evaluation_count: en evaluation
+        total_count: total
+        cost_for_geozone: Cost total
+    geozones:
+      index:
+        title: districtes
+        create: Crear Districte ONU
+        edit: editar
+        delete: esborrar
+      geozone:
+        name: nom
+        external_code: codi extern
+        census_code: Codi del cens
+        coordinates: Coordenades
+      errors:
+        form:
+          error:
+            one: error va impedir i estalviar el Districte
+            other: Errors van impedir Guardats Districte.
+      edit:
+        form:
+          submit_button: Guardar canvis
+        editing: districte Editant
+        back: tornar
+      new:
+        back: tornar
+        creating: crear Districte
+      delete:
+        success: Districte esborrat correctament
+        error: No Es Pot esborrar el Districte Perquè ja té Elements Associats
+    signature_sheets:
+      author: autor
+      created_at: Data de creació
+      name: nom
+      no_signature_sheets: Sense HI HA fulls de signatures
+      index:
+        title: Fulls de signatures
+        new: Nou full de signatures
+      new:
+        title: Nou full de signatures
+        document_numbers_note: Els Nombres introduir Separats per comes (,)
+        submit: Crear full de signatures
+      show:
+        created_at: CREAT
+        author: autor
+        documents: documents
+        document_count: 'Nombre de Documents:'
+        verified:
+          one: Hi ha% count} {signatura vàlida
+          other: Fenc %{count} Firmes primària secundària
+        unverified:
+          one: Hi ha% count} {signatura invàlida
+          other: Fenc %{count} Firmes invàlides
+        unverified_error: "(No hi ha verificades Per El Padró)"
+        loading: Tot Hi ha Firmes Que ESTAN verificant pel padró, si us plau refresca
+          la page in instants de UNS
+    stats:
+      show:
+        stats_title: Estadístiques
+        summary:
+          comment_votes: Vots en comentaris
+          comments: comentaris
+          debate_votes: Vots en debats
+          debates: debats
+          proposal_votes: Vots en propostes
+          proposals: Propostes
+          budgets: Pressupostos oberts
+          budget_investments: Propostes d'Inversió
+          spending_proposals: Propostes d'Inversió
+          unverified_users: Usuaris sense verificar
+          user_level_three: Usuaris de Nivell Tres
+          user_level_two: Usuaris de Nivell dos
+          users: usuaris
+          verified_users: usuaris verificats
+          verified_users_who_didnt_vote_proposals: Usuaris verificats Que No Han VOTAT
+            Propostes
+          visits: visites
+          votes: vots
+        spending_proposals_title: Propostes d'Inversió
+        budgets_title: Pressupostos participatius
+        visits_title: visites
+        direct_messages: Missatges directes
+        proposal_notifications: Notificacions de propostes
+        incomplete_verifications: verificacions incompletes
+      direct_messages:
+        title: Missatges directes
+        total: Total
+        users_who_have_sent_message: Usuaris Que han de l'Enviat de la ONU Missatge
+          Privat
+      proposal_notifications:
+        title: Notificacions de propostes
+        total: total
+        proposals_with_notifications: notificacions estafadors Propostes
+    tags:
+      create: Crea un tema
+      destroy: ELIMINAR Tema
+      index:
+        add_tag: Afegeix un nou tema de proposta
+        title: Temes de Proposta
+      mark_as_featured: Proposar tema al Proposta Crear
+      name:
+        placeholder: ESCRIU EL Nom del tema
+      update: actualitzar Tema
+    users:
+      columns:
+        name: nom
+        email: correu electrònic
+        document_number: DNI
+        roles: rols
+        verification_level: Nivell de verificació
+      index:
+        title: usuaris
+      search:
+        placeholder: Cercar usuari per correu electrònic, nom o DNI
+        search: Cercar
+    verifications:
+      index:
+        phone_not_given: No ha donat el seu telèfon
+        sms_code_not_confirmed: No s'ha introduït el seu Codi de Seguretat
+        title: verificacions incompletes
+    site_customization:
+      content_blocks:
+        form:
+          content_blocks_information: Informació Sobre els blocs de text
+          content_block_about: POTS Crear blocs d'HTML Que s'incrustaran a la capçalera
+            o el peu de la teva Cònsol.
+          content_block_top_links_html: Els <strong> blocs de la capçalera (top_links)
+            <
+          content_block_footer_html: Els <strong> blocs del peu (peu de pàgina) <
+        create:
+          notice: Bloc correctament CREAT
+          error: No s'ha pogut Crear el bloc
+        update:
+          notice: Bloc actualitzat correctament
+          error: No s'ha pogut Actualitzar el bloc
+        destroy:
+          notice: Bloc esborrat correctament
+        edit:
+          title: bloc editar
+        errors:
+          form:
+            error: error
+        index:
+          create: Crear nou bloc
+          delete: bloc Esborrar
+          title: blocs
+        new:
+          title: Crear nou bloc
+        content_block:
+          body: contingut
+          name: nom
+      images:
+        index:
+          title: imatges Personalitzar
+          update: actualitzar
+          delete: esborrar
+          image: imatge
+        update:
+          notice: Imatge correctament Actualitzada
+          error: No s'ha pogut Actualitzar la imatge
+        destroy:
+          notice: Imatge correctament Esborrada
+          error: No s'ha pogut esborrar la imatge
+      pages:
+        create:
+          notice: Pàgina Creada correctament
+          error: No s'ha pogut crear de la Pàgina
+        update:
+          notice: Pàgina Actualitzada correctament
+          error: No s'ha pogut Actualitzar La Pàgina
+        destroy:
+          notice: Pàgina eliminada correctament
+        edit:
+          title: Edita %{page_title}
+        errors:
+          form:
+            error: error
+        form:
+          options: OPCIONS
+        index:
+          create: Crea una pàgina nova
+          delete: esborrar page
+          title: pàgines
+          see_page: Veure pàgina
+        new:
+          title: Nova Pàgina
+        page:
+          created_at: creada
+          status: estat
+          title: títol
+          updated_at: ACTUALITZACIÓ última
+          status_draft: esborrany
+          status_published: publicada

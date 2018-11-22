@@ -1,0 +1,24 @@
+---
+ca:
+  helpers:
+    page_entries_info:
+      entry:
+        one: Entrada
+        other: Entrades
+        zero: Entrades
+      more_pages:
+        display_entries: Ara es mostren <strong>%{first}&nbsp;-&nbsp;%{last}</strong> de un total de <strong>%{total} %{entry_name}</strong>
+          <
+      one_page:
+        display_entries:
+          one: Hi ha <strong>1 %{entry_name}</strong>
+          other: Hi ha <strong>%{count} %{entry_name}</strong>
+          zero: No s'han trobat %{entry_name}
+  views:
+    pagination:
+      first: Primera
+      last: Última
+      next: Següent
+      previous: Anterior
+      truncate: "&hellip;"
+      current: Estàs en la pàgina

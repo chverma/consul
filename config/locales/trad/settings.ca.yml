@@ -1,0 +1,48 @@
+ca:
+  settings:
+    comments_body_max_length: Longitud màxima dels comentaris
+    official_level_1_name: Càrrecs públics de nivell 1
+    official_level_2_name: Càrrecs públics de nivell 2
+    official_level_3_name: Càrrecs públics de nivell 3
+    official_level_4_name: Càrrecs públics de nivell 4
+    official_level_5_name: Càrrecs públics de nivell 5
+    max_ratio_anon_votes_on_debates: Percentatge màxim de vots anònims per debat
+    max_votes_for_proposal_edit: Nombre de vots en que una proposta deixa de poder-se editar
+    max_votes_for_debate_edit: Nombre de vots en que un debat deixa de poder-se editar
+    proposal_code_prefix: Prefix per als codis de Propostes
+    votes_for_proposal_success: Nombre de vots necessaris per a aprovar una proposta
+    months_to_archive_proposals: Mesos per arxivar les Propostes
+    email_domain_for_officials: Domini del correu electrònic per a càrrecs públics
+    per_page_code_head: Codi a incloure a cada pàgina (<head>)
+    per_page_code_body: Codi a incloure a cada pàgina (<body>)
+    twitter_handle: Usuari de Twitter
+    twitter_hashtag: Hashtag per a Twitter
+    facebook_handle: Identificador de Facebook
+    youtube_handle: Usuari de Youtube
+    telegram_handle: Usuari de Telegram
+    instagram_handle: Usuari de Instagram
+    blog_url: URL del Blog
+    transparency_url: URL de transparència
+    opendata_url: URL de dades obertes
+    url: URL general de la web
+    org_name: Nom de l'Organització
+    place_name: Nom del lloc
+    feature:
+      budgets: Pressupostos participatius
+      twitter_login: Registre amb Twitter
+      facebook_login: Registre amb facebook
+      google_login: Registre amb Google
+      debates: Debats
+      polls: Votacions
+      signature_sheets: Fulls de signatures
+      spending_proposals: Propostes d'inversió
+      spending_proposal_features:
+        voting_allowed: Votacions sobre propostes d'inversió
+      legislation: Legislació
+    mailer_from_name: Nom email remitent
+    mailer_from_address: Direcció email remitente
+    meta_description: Descripció del lloc (SEO)
+    meta_keywords: Paraules clau (SEO)
+    verification_offices_url: URL oficines verificació
+    min_age_to_participate: Edat minima per a participar
+    proposal_improvement_path: Link a informació per a millorar propostes

@@ -1,0 +1,135 @@
+ca:
+  budgets:
+    ballots:
+      show:
+        title: Els meus vots
+        amount_spent: cost total de
+        remaining: "Et Queden <span> %{amount} </span>"
+        no_balloted_group_yet: "Encara no té VOTAT Projectes of this grup, vota!"
+        remove: vot treure
+        voted_html:
+          one: "Té VOTAT <span> Una </span>"
+          other: "Té VOTAT <span> %{count} </span>"
+        voted_info_html: "POTS change teus vots en any Moment Fins al Tancament d'aquesta fase. <br> No Fa Falta Que gastis Tot els diners disponibles."
+        zero: "Encara no té VOTAT Cap Proposta d'Inversió."
+      reasons_for_not_balloting:
+        not_logged_in: Necessites %{signin} o %{signup} de registre per continuar.
+        not_verified: Les Propostes d'Inversió Només poden Ser recolzades per Usuaris verificats, %{verify_account} .
+        organization: Les Organitzacions no poden Votar.
+        not_selected: No es poden Votar Propostes inviables.
+        not_enough_money_html: "Ja té assignat pressupost disponible el. A <small> Recorda Que POTS %{change_ballot} en  any Moment </small>"
+        no_ballots_allowed: El Període de Votació this tancat.
+        different_heading_assigned: Ja vas votar En Una section Diferent del pressupost.
+        change_ballot: change teus vots
+    groups:
+      show:
+        title: Selecciona Una opció
+        unfeasible_title: propostes inviables
+        unfeasible: Veure Propostes inviables
+        unselected_title: Propostes sense Seleccionades Per La Votació finals
+        unselected: Veure les Propostes sense Seleccionades Per La Votació finals
+    phase:
+      accepting: Presentació de Projectes
+      reviewing: Revisió interna de Projectes
+      selecting: Fase de Suports
+      valuating: S avaluació de Projectes
+      balloting: última Votació
+      reviewing_ballots: votació finalitzada
+      finished: resultats
+    index:
+      title: Pressupostos participatius
+    investments:
+      form:
+        tags_instructions: Etiqueta this Proposta. POTS Triar Entre les Categories Propostes O introdueix les Que desitgis
+        tags_label: temes
+        tag_category_label: categories
+        tags_placeholder: ESCRIU Les Etiquetes Que desitgis Separades Per una coma(,)
+      index:
+        title: Pressupostos participatius
+        unfeasible: "Propostes d'Inversió no viables"
+        unfeasible_text: "Les Propostes presentades Han Complir Una sèrie de Criteris (Legalitat, concreció, competència Ser l'Ajuntament, no Superar el límit del pressupost; %{definitions}) Per Ser declarades viables i Arribar Fins a la fase de votació final. Totes les Propostes que No Compleixen AQUESTS Criteris fill Marcades Com inviables i publicades a la següent llista, juntament amb el seu Informe d'inviabilitat."
+        unfeasible_text_definitions: "Veure definicions aquí"
+        by_heading: "Propostes d'Inversió amb Àmbit: %{heading}"
+        search_form:
+          button: Cercar
+          placeholder: Cercar Propostes d'Inversió ...
+          title: Cercar
+        search_results_html:
+          one: Que Conté <strong>'%{search_term}'</strong>
+          other: Que contenen <strong> '%{search_term}'</strong>
+        sidebar:
+          my_ballot: Els meus vots
+          voted_html:
+            one: "<strong> Té VOTAT Una proposta Per un valor de %{amount_spent}</strong>"
+            other: "<strong> Té VOTAT %{count} Propostes Per Un valor de %{amount_spent}</strong>"
+          voted_info: POTS %{link} en any Moment Fins al Tancament d'aquesta fase. No Fa Falta Que gastis Tot els diners disponibles.
+          voted_info_link: change teus vots
+          different_heading_assigned_html: "Ja vas recolzar Propostes de Una altra section del pressupost: %{heading_link}"
+          change_ballot: Si canvies d'opinió POTS esborreu les vots a %{check_ballot} i tornar a començar.
+          check_ballot_link: Revisar els meus vots
+          zero: "Encara no té VOTAT Cap Proposta d'Inversió En Aquest Àmbit del pressupost."
+          verified_only: "Per crear Una Nova Proposta d'inversió %{verify} verificar."
+          verify_account: verifica teu Compte
+          create: "Crear Proposta d'Inversió"
+          not_logged_in: Per crear Una Nova Proposta d'Inversió Has %{sign_in} o %{sign_up} .
+          sign_in: iniciar Sessió
+          sign_up: "registrar-se"
+          by_feasibility: viabilitat per
+          feasible: Veure els Projectes viables
+          unfeasible: Veure els Projectes inviables
+        orders:
+          random: aleatòries
+          confidence_score: millor valorades
+          price: cost per
+      show:
+        author_deleted: eliminat usuari
+        price_explanation: Informe de cost
+        unfeasibility_explanation: "Informe d'inviabilitat"
+        code_html: "Codi Proposta de despesa: <strong>%{code}</strong>"
+        location_html: "Descripció de la ubicació: <strong>%{location}</strong>"
+        organization_name_html: "Organització: <strong>%{name}</strong>"
+        share: compartir
+        title: "Proposta d'Inversió"
+        supports: suports
+        votes: vots
+        price: cost
+      wrong_price_format: Només POT Incloure Caràcters Numèrics
+      investment:
+        add: votar
+        already_added: "Ja té afegit this Proposta d'Inversió"
+        already_supported: Ja té recolzat Proposta this. ShareThis
+        support_title: Proposta donar avui tota this
+        confirm_group: Només pots recolzar propostes en un districte. Si sigueu endavant, no podreu canviar aquesta decisió. Esteu segur?
+        supports:
+          one: 1 Recolzament
+          other: "%{count} Suports"
+          zero: sense Suports
+        give_support: donar avui tota
+      header:
+        check_ballot: Revisar els meus vots
+        different_heading_assigned_html: "Ja vas recolzar Propostes de Una altra section
+          del pressupost: %{heading_link}"
+        change_ballot: Si canvies d'opinió POTS esborreu les vots a %{check_ballot} i tornar a començar.
+        check_ballot_link: Revisar els meus vots
+    progress_bar:
+      available: "disponible:"
+    show:
+      group: grup
+      phase: fase real
+      unfeasible_title: propostes inviables
+      unfeasible: Veure les Propostes inviables
+      unselected_title: Propostes sense Seleccionades Per La Votació finals
+      unselected: Veure les Propostes sense Seleccionades Per La Votació finals
+      see_results: resultats Veure
+    results:
+      page_title: "%{budget} - Resultats"
+      heading: Resultats Pressupostos participatius
+      geozone_selection_title: Àmbit d'Actuació
+      spending_proposal: Títol
+      ballot_lines_count: vots
+      hide_discarded_link: Amaga descartades
+      show_all_link: totes Mostra
+      price: Coste
+      amount_available: pressupost disponible
+      accepted: "Proposta d''Inversió acceptada:"
+      discarded: "Proposta d''Inversió descartada:"

@@ -1,0 +1,146 @@
+---
+es:
+  management:
+    account:
+      alert:
+        unverified_user: Només es poden editar comptes d'Usuaris verificats
+      show:
+        title: Compte d'usuari
+    account_info:
+      change_user: usuari Change
+      document_number_label: 'Nombre de document:'
+      document_type_label: 'Tipus de document:'
+      email_label: 'e-mail:'
+      identified_label: 'Identificat Com:'
+      username_label: 'usuari:'
+    check: comprovar v
+    dashboard:
+      index:
+        title: gestió
+        info: From here POTS Gestionar Usuaris a Través de les Accions llistades al
+          menú de l'Esquerra.
+    document_number: Nombre de document
+    document_type_label: Tipus de document
+    document_verifications:
+      already_verified: This Compte d'usuari ja està verificada.
+      has_no_account_html: Per crear de l'ONU usuari Entreu a% {link} i Feu clic a
+        l'Opció <b> 'Crear' <
+      link: cònsol
+      in_census_has_following_permissions: 'Pot l''aquest usuari Participar al Portal
+        de Govern Obert estafadors les Següents Possibilitats:'
+      not_in_census: This document No registrat AQUESTA.
+      not_in_census_info: 'Les Persones no empadronades poden Participar al Portal
+        de Govern Obert estafadors les Següents Possibilitats:'
+      please_check_account_data: Comproveu Que les Dades Anteriors fill correctes
+        per verificar un procedure El Compte Completament.
+      title: Gestió d'Usuaris
+      under_age: No tens edat suficient per verificar la teva compta.
+      verify: verificar usuari
+    email_label: e-mail
+    date_of_birth: Data de naixement
+    email_verifications:
+      already_verified: This Compte d'usuari ja està verificada.
+      choose_options: 'Tria una de les OPCIONS Següents:'
+      document_found_in_census: This document aquesta en el registre del padró municipal,
+        Però encara no TÉ UNA Compte d'usuari Associada.
+      document_mismatch: Aquest correu electrònic correspon a un usuari que ja té
+        associat el document% {document_number} (% {document_type})
+      email_placeholder: Introduir el correu electrònic de registre
+      email_sent_instructions: Per Acabar de verificar this Compte és necessari Que
+        Feu clic a l'enllaç que li HEM Enviat a la Direcció de Correu Que Figura dalt.
+        Aquest pas és necessary to confirm Que esmentat Compte d'usuari és Seva.
+      if_existing_account: Si la persona ja ha CREAT Una Compte d'usuari a la web
+      if_no_existing_account: Si la persona encara no ha CREAT Una Compte d'usuari
+        a la web
+      introduce_email: 'Introduir el correu electrònic amb El que CREC El Compte:'
+      send_email: Enviar correu electrònic de verificació
+    menu:
+      create_proposal: proposta Crear
+      print_proposals: propostes Imprimir
+      support_proposals: propostes donar avui tota
+      create_spending_proposal: Crear proposta d'inversió
+      print_spending_proposals: propts Imprimeix. d'Inversió
+      support_spending_proposals: suports donar avui tota. d'Inversió
+      create_budget_investment: Crear Projectes d'Inversió
+      print_budget_investments: Imprimir Projectes d'Inversió
+      support_budget_investments: Donar avui tota Projectes d'Inversió
+      users: usuaris
+      edit_user_accounts: Edita Compte d'usuari
+      user_invites: Invitacions per a Usuaris
+    permissions:
+      create_proposals: Crear Noves Propostes
+      debates: Participar ÉS debats
+      support_proposals: propostes donar avui tota
+      vote_proposals: Participar en els finals de les Votacions
+    print:
+      proposals_info: 'Haz tu propuesta en http:'
+      proposals_note: Les Propostes Més recolzades seran portades a votació. I si
+        les Accepta Una Majoria, l'Ajuntament les Portarà un cap.
+      proposals_title: 'propostes:'
+      spending_proposals_info: 'Participa a http:'
+      spending_proposals_note: Els Pressupostos participatius s'invertiran en les
+        Propostes d'Inversió Més recolzades.
+      budget_investments_info: 'Participa a http:'
+      budget_investments_note: Els Pressupostos participatius s'invertiran en les
+        Propostes d'Inversió Més recolzades.
+    print_info: Imprimir Informació this
+    proposals:
+      alert:
+        unverified_user: Aquest usuari no Verificat this
+      create_proposal: proposta Crear
+      print:
+        print_button: Imprimir
+    budgets:
+      create_new_investment: Crear Nou Projecte
+      print_investments: projectes Imprimir
+      support_investments: projectes donar avui tota
+    budget_investments:
+      alert:
+        unverified_user: Usuari No Verificat
+      create: Crear Nou Projecte
+      filters:
+        heading: concepte
+        unfeasible: Projectes no factibles
+      print:
+        print_button: imprimir
+      search_results:
+        one: Conté el terme '% {} search_term'
+        other: contenen el terme '% {} search_term'
+    spending_proposals:
+      alert:
+        unverified_user: Aquest usuari no Verificat this
+      create: Crear Proposta d'Inversió
+      filters:
+        unfeasible: Propostes d'inversió no viables
+        by_geozone: Propostes d'inversió amb àmbit:% {geozone}
+      print:
+        print_button: imprimir
+      search_results:
+        one: Que Conté '% {} search_term'
+        other: Que contenen '% {} search_term'
+    sessions:
+      signed_out: La Sessió té tancat correctament.
+      signed_out_managed_user: S'ha tancat correctament la Sessió de l'Usuari.
+    username_label: Nom d'usuari
+    users:
+      create_user: Crea un Compte d'usuari
+      create_user_info: 'Procedim una ONU Crear usuari amb la següent informació:'
+      create_user_submit: crear usuari
+      create_user_success_html: HEM ENVIAT ONU Correu electrònic a <b>% {email} <
+      erased_notice: Compte d'usuari eliminat.
+      erased_by_manager: S'ha eliminat pel gerent:% {} gestor
+      erase_account_link: compte Esborrar
+      erase_account_confirm: "¿Segur Que Vols esborrar una per a aquest usuari? This
+        ACCIÓ cap Es pot desfer"
+      erase_warning: Aquesta acció no es pot desfer. Per favor, assegureu-vos que
+        voleu eliminar aquesta compte.
+      erase_submit: compte Esborrar
+    user_invites:
+      new:
+        label: els correus electrònics
+        info: Introduir els correus electrònics Separats per ''
+        submit: Enviar Els Invitacions
+        title: Invitacions per a Usuaris
+      create:
+        success_html: S'han enviat <strong>% {count} invitacions <
+        title: Invitacions per a Usuaris

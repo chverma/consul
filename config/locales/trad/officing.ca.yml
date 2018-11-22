@@ -1,0 +1,104 @@
+---
+ca:
+  officing:
+    header:
+      title: votacions
+    dashboard:
+      index:
+        title: Presidir taula de Votacions
+        info: Aquí POTS Validar Documents de Ciutadans i GUARDAR els resultats de
+          les urnes
+    menu:
+      voters: Validar document i Votar
+      recounts: diari recompte
+      final_recounts: Recompte final d'escrutini i
+    polls:
+      index:
+        title: Llistat de Votacions
+        no_polls: No ets president de taula en Cap Votació Activa
+        select_poll: Selecciona votació
+        add_recount: 'recompte: Afegir'
+      final:
+        title: Llistat de Votacions finalitzades
+        no_polls: No tens permís per comptar final en cap votació recent
+        select_poll: Selecciona Votació
+        add_recount: Anadir els finals dels recomptes
+        add_results: 'resultats: Afegir'
+    recounts:
+      flash:
+        create: dades afegits
+        error_create: Recompte NO afegit. Error en les Dades
+      new:
+        title: "{%} Enquesta -: Afegir recompte diari"
+        not_allowed: No ets president de taula En Aquesta Votació
+        booth_date: Data i urna
+        select_booth_date: Tria Data i urna
+        count: Nombre de vots
+        count_placeholder: Nombre de vots
+        submit: i estalviar
+        recount_list: Els teus recomptes
+        booth: urna
+        date: data
+    final_recounts:
+      flash:
+        create: dades afegits
+        error_create: Recompte afegit NO final. Error en les Dades
+      new:
+        title: "%{poll} Enquesta - Recompte: Afegir definitiva"
+        not_allowed: No tens Permís per introduir els finals recountos
+        booth: urna
+        date: Dia
+        select_booth: Tria urna
+        select_date: Tria dia
+        count: últim recompte
+        count_placeholder: Nombre definitiu de vots
+        submit: i estalviar
+        final_recount_list: Els teus recomptes episodis finals
+        system_count: Recompte del Sistema
+        add_results: Afegir resultats
+    results:
+      flash:
+        create: dades Guardats
+        error_create: Resultats NO afegits. Error en les Dades
+        error_wrong_booth: Incorrecta urna. Resultats Guardats NO.
+        error_wrong_date: Incorrecta Data. Resultats Guardats NO.
+      new:
+        title: "%{poll} - Resultats Anadir"
+        not_allowed: No tens Permís per introduir Resultats
+        booth: urna
+        date: Dia
+        select_booth: Tria urna
+        select_date: Tria dia
+        ballots_white: Paperetes en blanc
+        ballots_null: paperetes nul·les
+        submit: i estalviar
+        results_list: resultats Els teus
+        see_results: resultats Veure
+      index:
+        no_results: No hi ha resultats de fenc
+        results: resultats
+        table_answer: Resposta
+        table_votes: Vots
+        table_whites: Paperetes en blanc
+        table_nulls: paperetes nul·les
+    residence:
+      flash:
+        create: Document Verificat amb el Padró
+        not_allowed: Avui no tens torn de president de taula
+      new:
+        title: Validar el document
+        document_number: Nombre de document (Inclosa lletra)
+        submit: validar document
+        error_verifying_census: El Padró sense poder verificar this document.
+        form_errors: van evitar verificar this document
+        no_assignments: Avui no tens torn de president de taula
+    voters:
+      new:
+        title: votacions
+        table_poll: votació
+        table_actions: Estat de les Votacions
+      show:
+        can_vote: pot l'Votar
+        error_already_voted: Ja ha participat en this Votació.
+        submit: Confirma vot
+        success: "¡Vot introduït!"
